@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to left,brown 0, brown 50%, black 50%);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    backdrop-filter: blur(1px);
+    opacity: 0.3;
+    background-color: #6a2323;
+    border-bottom: 3px solid white;
+    div{
+        margin-right: 14%;
+    }
+    a{
+        margin-left: 25px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.title{
+    display: inline;
+    h2, p{
+        margin: 0;
+        display: inline;
+    }
+}
