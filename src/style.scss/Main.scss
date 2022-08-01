@@ -28,9 +28,20 @@ body{
 }
 
 .title{
-    display: inline;
+    display: grid;
+    grid-template-rows: 93vh;
+    grid-template-columns: 1fr 1fr;
     h2, p{
         margin: 0;
-        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
     }
+    div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        img{
+            margin: auto;
+        }
+    }   
 }
