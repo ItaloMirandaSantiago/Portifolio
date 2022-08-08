@@ -43,6 +43,11 @@ body{
         img{
             margin: auto;
         }
+        p{
+            color: #fff;
+            text-decoration: none !important;
+            text-shadow: 0 0 3px #fff;
+        }
     }   
 }
 
@@ -50,7 +55,7 @@ body{
     background-color: #fff;
     margin: auto;
     width: 88%;
-    height: 50%;
+    height: 88%;
     box-shadow: 0 0 15px #555;
     border-radius: 12%;
 }
